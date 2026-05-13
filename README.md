@@ -4,7 +4,7 @@ A bold, vibrant personal portfolio website built with vanilla HTML, CSS, and Jav
 
 ## 🌐 Live Site
 
-> [harshitak13.github.io/portfolio](https://harshitak13.github.io/portfolio) ← update this link after deploying
+> https://portfolio-ten-fawn-90.vercel.app/
 
 ---
 
