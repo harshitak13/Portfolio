@@ -432,7 +432,8 @@
   }
   .project-card:nth-child(1)::before { background: linear-gradient(90deg, var(--pink), var(--purple)); }
   .project-card:nth-child(2)::before { background: linear-gradient(90deg, var(--cyan), var(--green)); }
-  .project-card:nth-child(3)::before { background: linear-gradient(90deg, var(--yellow), var(--pink)); }
+  .project-card:nth-child(4)::before { background: linear-gradient(90deg, var(--green), var(--cyan)); }
+  .project-card:nth-child(5)::before { background: linear-gradient(90deg, var(--purple), var(--pink)); }
   .project-card:hover { transform: translateY(-5px); border-color: rgba(255,255,255,0.12); }
   .project-num {
     font-family: 'Syne', sans-serif;
@@ -714,7 +715,7 @@
           <span class="highlight-yellow">Karnam</span>
         </h1>
         <p class="hero-desc">
-          Engineering Undergraduate at IIIT Sri City — building AI systems that think, learn, and adapt. My research sits at the intersection of <span style="color:var(--cyan)">Reinforcement Learning</span>, <span style="color:var(--pink)">LLMs</span>, and intelligent traffic control.
+          Engineering Undergraduate at IIIT Sri City — I build things on both ends of the stack. From <span style="color:var(--cyan)">full-stack web apps</span> and <span style="color:var(--yellow)">multi-vendor marketplaces</span> to <span style="color:var(--pink)">RL + LLM research</span> in intelligent traffic control.
         </p>
         <div class="hero-ctas">
           <a href="#contact" class="btn btn-primary">✉ Get In Touch</a>
@@ -730,7 +731,7 @@
         </div>
         <div class="avatar-badges">
           <div class="badge badge-yellow">🔬 Published Research</div>
-          <div class="badge badge-cyan">🎓 IIIT Sri City</div>
+          <div class="badge badge-cyan">💻 Full-Stack Dev</div>
         </div>
       </div>
     </div>
@@ -746,9 +747,9 @@
           <div class="section-label">About Me</div>
           <h2 class="section-title">The person behind the<br><span class="highlight-pink">code</span></h2>
         </div>
-        <p>I'm a <span>second-year B.Tech CSE student</span> at IIIT Sri City, India. My passion lies in making AI systems that don't just follow instructions — they reason, adapt, and generalise to the unseen.</p>
-        <p>My flagship project, <span>SafeGAT</span>, combines Graph Attention Networks with Large Language Models to create smarter traffic signal controllers — currently under peer review.</p>
-        <p>Beyond the lab, I lead tech events as <span>Director of the Entrepreneurship Cell</span> and contribute to the developer community via <span>Google Developer Groups</span>.</p>
+        <p>I'm a <span>second-year B.Tech CSE student</span> at IIIT Sri City, India. I thrive in two worlds: shipping full-stack products people can use, and pushing the frontier of AI systems that reason and adapt.</p>
+        <p>On the web side, I've built <span>Velora Market</span> (a full multi-vendor marketplace with Next.js, TypeScript & MongoDB) and <span>CinePlex</span> (a React movie app powered by TMDB & Firebase). On the research side, <span>SafeGAT</span> — my LLM + Graph Attention RL framework for traffic signal control — is currently under peer review.</p>
+        <p>Beyond the keyboard, I lead tech events as <span>Director of the Entrepreneurship Cell</span> and grow the developer community via <span>Google Developer Groups</span>.</p>
       </div>
       <div class="stat-grid">
         <div class="stat-card">
@@ -760,12 +761,12 @@
           <div class="stat-label">Research Paper Under Review</div>
         </div>
         <div class="stat-card">
-          <div class="stat-num" style="color:var(--cyan)">3+</div>
-          <div class="stat-label">RL Projects Shipped</div>
+          <div class="stat-num" style="color:var(--cyan)">5+</div>
+          <div class="stat-label">Projects Shipped</div>
         </div>
         <div class="stat-card">
-          <div class="stat-num" style="color:var(--green)">4</div>
-          <div class="stat-label">RL Algorithms Benchmarked</div>
+          <div class="stat-num" style="color:var(--green)">Full</div>
+          <div class="stat-label">Stack — Web &amp; AI/RL</div>
         </div>
       </div>
     </div>
@@ -787,9 +788,42 @@
           <span class="skill-tag">Python</span>
           <span class="skill-tag">C</span>
           <span class="skill-tag">C++</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">TypeScript</span>
           <span class="skill-tag">HTML</span>
           <span class="skill-tag">CSS</span>
-          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-icon">⚛️</div>
+        <div class="skill-group-title">Frontend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Next.js</span>
+          <span class="skill-tag">JSX / TSX</span>
+          <span class="skill-tag">CSS (custom)</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-icon">🖥️</div>
+        <div class="skill-group-title">Backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Next.js API Routes</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">JWT</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-icon">🗄️</div>
+        <div class="skill-group-title">Databases & Services</div>
+        <div class="skill-tags">
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Mongoose</span>
+          <span class="skill-tag">Firebase Firestore</span>
+          <span class="skill-tag">Firebase Auth</span>
+          <span class="skill-tag">TMDB API</span>
+          <span class="skill-tag">Vercel</span>
         </div>
       </div>
       <div class="skill-group reveal">
@@ -803,23 +837,16 @@
       </div>
       <div class="skill-group reveal">
         <div class="skill-group-icon">🧠</div>
-        <div class="skill-group-title">Algorithms</div>
+        <div class="skill-group-title">Algorithms & Concepts</div>
         <div class="skill-tags">
           <span class="skill-tag">DQN</span>
           <span class="skill-tag">Double DQN</span>
           <span class="skill-tag">PPO</span>
           <span class="skill-tag">CoLight</span>
           <span class="skill-tag">Multi-Agent RL</span>
-        </div>
-      </div>
-      <div class="skill-group reveal">
-        <div class="skill-group-icon">💡</div>
-        <div class="skill-group-title">Concepts</div>
-        <div class="skill-tags">
           <span class="skill-tag">Graph Attention Networks</span>
           <span class="skill-tag">LLM Integration</span>
           <span class="skill-tag">Reward Shaping</span>
-          <span class="skill-tag">Policy Gradient</span>
         </div>
       </div>
       <div class="skill-group reveal">
@@ -909,11 +936,42 @@
         </div>
       </div>
 
-    </div>
+      <div class="project-card reveal">
+        <div class="project-num">04</div>
+        <div class="project-title">Velora Market — Multi-Vendor Marketplace</div>
+        <p class="project-desc">Full-stack multi-vendor marketplace with buyer storefront, seller &amp; admin dashboards, product/order management, and role-based authentication. Next.js API backend with TypeScript, HTTP-only refresh cookies, and MongoDB persistence.</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="project-tag tag-cyan">Next.js</span>
+            <span class="project-tag tag-green">TypeScript</span>
+            <span class="project-tag tag-yellow">MongoDB</span>
+          </div>
+          <div style="display:flex;gap:0.6rem;">
+            <a href="https://github.com/harshitak13/Velora" target="_blank" class="project-link">GitHub ↗</a>
+            <a href="https://velora-three-virid.vercel.app" target="_blank" class="project-link" style="color:var(--green);">Live ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">05</div>
+        <div class="project-title">CinePlex — React Movie Discovery App</div>
+        <p class="project-desc">React app for browsing trending films, searching titles, exploring genres, watching trailers, and managing a personal watchlist. TMDB API for live data; Firebase Authentication &amp; Firestore for user accounts, infinite scrolling, actor pages, and detailed cast/crew views.</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="project-tag tag-pink">React</span>
+            <span class="project-tag tag-yellow">Firebase</span>
+            <span class="project-tag tag-cyan">TMDB API</span>
+          </div>
+          <div style="display:flex;gap:0.6rem;">
+            <a href="https://github.com/harshitak13/cineplex" target="_blank" class="project-link">GitHub ↗</a>
+            <a href="https://cineplex-aupw.vercel.app" target="_blank" class="project-link" style="color:var(--green);">Live ↗</a>
+          </div>
+        </div>
+      </div>
+  </div>
   </div>
 </section>
-
-<!-- EXPERIENCE -->
 <section id="experience">
   <div class="container">
     <div class="section-header reveal">
@@ -948,7 +1006,7 @@
       <div class="contact-info reveal">
         <div class="section-label">Contact</div>
         <h2 class="section-title" style="margin-bottom:1rem;">Let's <span class="highlight-yellow">connect</span></h2>
-        <p>Open to research collaborations, internship opportunities, and interesting conversations about AI, RL, and everything in between.</p>
+        <p>Open to internship opportunities, research collaborations, and interesting conversations about full-stack development, AI, RL, and everything in between.</p>
         <div class="contact-links">
           <a href="mailto:harshita.karnam909@gmail.com" class="contact-link">
             <div class="contact-link-icon icon-email">✉</div>
