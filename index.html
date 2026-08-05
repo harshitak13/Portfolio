@@ -1515,7 +1515,7 @@
   <script>
     // ─── EmailJS Init ───
     // STEP 1: Replace with your actual EmailJS Public Key
-    emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
+    emailjs.init("8jsB8LI3M0hwn2U-c");
 
     document.getElementById('contactForm').addEventListener('submit', function (e) {
       e.preventDefault();
@@ -1528,7 +1528,7 @@
       status.style.display = 'none';
 
       // STEP 2: Replace with your actual EmailJS Service ID and Template ID
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+      emailjs.sendForm('service_flofy0r', 'template_k8vj3v6', this)
         .then(() => {
           status.textContent = '✓ Message sent! I\'ll get back to you soon.';
           status.className = 'form-status success';
